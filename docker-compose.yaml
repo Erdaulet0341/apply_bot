@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  bot:
+    image: e7abdurakhman/apply_bot
+    build:
+      context: .
+      dockerfile: DockerFile
+    restart: always
+    env_file:
+      - ./.env
+    volumes:
+      - ./logs:/code/logs
+    command: bash -c 'python main.py'
