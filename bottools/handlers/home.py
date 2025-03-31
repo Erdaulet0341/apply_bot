@@ -23,7 +23,7 @@ def home_handler(update: Update, context: CallbackContext):
 
     fullname = context.user_data.get('fullname')
     phone_number = context.user_data.get('phone_number')
-    username = context.user_data.get('username')
+    username = update.message.from_user.username
     telegram_id = update.message.chat_id
 
     if is_client_exists(phone_number):
