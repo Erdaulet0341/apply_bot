@@ -3,6 +3,14 @@
 ## Overview
 Apply Bot is a Telegram bot designed for the clients of **NBS Solutions**. This bot assists users in their application process and provides support in **Kazakh** and **Russian** languages. Additionally, the bot includes an AI-powered assistant that can answer client questions.
 
+## Video demonstration
+
+https://github.com/user-attachments/assets/d4e0e689-8913-450f-8cce-b44be8ece46b
+
+### Screenshot of new clients channel for managers
+<img width="1552" alt="Снимок экрана 2025-03-31 в 12 54 22" src="https://github.com/user-attachments/assets/051168be-a214-4e15-9b68-c32f613b6876" />
+
+
 ## Features
 - **Multilingual Support:** The bot interacts in **Kazakh** and **Russian**.
 - **User Interaction:** The bot helps users by collecting necessary details such as phone number, country, and home address.
