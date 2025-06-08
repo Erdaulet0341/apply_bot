@@ -37,3 +37,4 @@ def is_valid_fullname(fullname: str) -> bool:  # Check if fullname is valid
 
 def is_valid_phone(phone: str) -> bool:  # Check if phone number is valid
     return phone.isdigit() and len(phone) >= 10 and phone[0] == '7'
+

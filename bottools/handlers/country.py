@@ -21,4 +21,3 @@ def country_handler(update: Update, context: CallbackContext) -> int:
 
     country_menu(update, context)
     return HOME
-
